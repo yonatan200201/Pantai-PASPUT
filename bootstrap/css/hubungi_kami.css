@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=MuseoModerno:wght@500&display=swap');
+
+#judul-web{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+
+  background: #E0EAFC;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #CFDEF3, #E0EAFC);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.card {
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px #2C3A47;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+}
+
+.card:hover {
+    background: #dfe6e9;
+    color: black;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 5px 5px 10px #534b4b;
+    cursor: default;
+}
+
+h5 {
+    color: #2d3436;
+}
+
+.nav-link {
+    font-family: Poppins-Medium;
+    font-size: 18px;
+    color: #333;
+    padding: 5px 0px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    background: #74b9ff;
+    color: white;
+}
+
+.navbar-toggler:hover {
+    background-color: #dff9fb;
+    border-radius: 20%;
+}
+
+.our-dev {
+     color: #57606f;
+     font-family: 'Raleway',
+     sans-serif;
+     font-size: 32px;
+     font-weight: 800;
+     line-height: 72px;
+     margin: 0 0 24px;
+     text-align: center;
+     text-transform: uppercase;
+}
+
+.our-dev,
+.dev-1 .dev-2 .dev-3 .dev-4 .dev-5 {
+    opacity: 0;
+}
+
+.our-dev .animated .dev-1 .animated .dev-2 .animated .dev-3 .animated .dev-4 .animated .dev-5 .animated {
+    opacity: 1;
+}

@@ -1,0 +1,24 @@
+[15-Jun-2020 01:20:20 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/pasputpa/public_html/admin/koneksi.php on line 6
+[15-Jun-2020 01:20:28 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/pasputpa/public_html/admin/koneksi.php on line 6
+[15-Jun-2020 01:20:28 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/pasputpa/public_html/admin/index.php on line 11
+[15-Jun-2020 01:20:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/pasputpa/public_html/admin/index.php on line 12
+[15-Jun-2020 01:49:00 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/pasputpa/public_html/admin/koneksi.php on line 6
+[15-Jun-2020 02:41:08 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/pasputpa/public_html/admin/koneksi.php on line 6
+[15-Jun-2020 10:57:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function upload() in /home/pasputpa/public_html/admin/aksi_insert.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/pasputpa/public_html/admin/aksi_insert.php on line 42
+[15-Jun-2020 11:08:08 UTC] PHP Warning:  unlink(upload/5ee7568c75e42.jpg): No such file or directory in /home/pasputpa/public_html/admin/aksi_berita.php on line 45
+[15-Jun-2020 11:08:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function upload() in /home/pasputpa/public_html/admin/aksi_insert.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/pasputpa/public_html/admin/aksi_insert.php on line 42
+[15-Jun-2020 11:13:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function upload() in /home/pasputpa/public_html/admin/aksi_insert.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/pasputpa/public_html/admin/aksi_insert.php on line 42
+[15-Jun-2020 11:21:10 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/pasputpa/public_html/admin/aksi_insert.php on line 99
+[15-Jun-2020 12:02:27 UTC] PHP Warning:  unlink(upload/5ee76329d4d92.jpg): No such file or directory in /home/pasputpa/public_html/admin/aksi_berita.php on line 45
+[15-Jun-2020 15:24:05 UTC] PHP Warning:  unlink(upload/5ee51a423f359.jpg): No such file or directory in /home/pasputpa/public_html/admin/aksi_berita.php on line 85
+[15-Jun-2020 15:24:06 UTC] PHP Warning:  unlink(upload/5ee51a423f359.jpg): No such file or directory in /home/pasputpa/public_html/admin/aksi_berita.php on line 85
+[15-Jun-2020 15:24:07 UTC] PHP Warning:  unlink(upload/5ee51a423f359.jpg): No such file or directory in /home/pasputpa/public_html/admin/aksi_berita.php on line 85

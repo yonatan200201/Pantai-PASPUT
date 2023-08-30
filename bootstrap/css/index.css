@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=MuseoModerno:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&family=Spartan:wght@500&display=swap');
+html,
+body,
+header,
+#intro {
+  height: 100%;
+}
+
+
+
+#intro {
+  background: url("https://images.pexels.com/photos/4434809/pexels-photo-4434809.jpeg?cs=srgb&dl=pexels-4434809.jpg&fm=jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.top-nav-collapse {
+  background-color: #24355C;
+}
+
+#judul-web{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#title{
+  margin-top: 320px;
+  color: white;
+  font-family: 'MuseoModerno', cursive;
+}
+
+#desc{
+     color: white;
+    font-family: 'MuseoModerno', cursive;
+    font-family: 'Spartan', sans-serif;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+  background:#74b9ff;
+  color: white;
+}
+
+.kotak img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  width: 500px;
+}
+
+.zoom-effect:hover .kotak img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355C;
+  }
+  #judul-web{
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  #title {
+    margin-top: -10px;
+    color: white;
+    font-family: 'MuseoModerno', cursive;
+  }
+
+}
+
+@media (max-width: 740px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355C;
+  }
+
+  #title {
+    color: white;
+    font-family: 'MuseoModerno', cursive;
+  }
+
+}
+
+@media (max-width: 736px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355C;
+  }
+
+  #title {
+    margin-top: -5px;
+    color: white;
+    font-family: 'MuseoModerno', cursive;
+  }
+
+}
+
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355C;
+  }
+}
+
+.navbar-toggler:hover {
+  background-color: #dff9fb;
+  border-radius: 20%;
+}
+
+.nav-link{
+  font-family: Poppins-Medium;
+  font-size: 18px;
+  color: #333;
+  padding: 5px 0px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+
+.sejarah--part1,
+.sejarah--part2 
+{
+  opacity: 0;
+}
+
+.sejarah--part1 .animated,
+.sejarah--part2 .animated{
+  opacity: 1;
+   -webkit-transition-duration: 1s,
+   3s;
+}
+
+.keterangan--part1{
+  opacity: 0;
+}
+
+.keterangan--part1 .animated{
+  opacity: 1;
+}
+
+.keterangan--part2{
+  opacity: 0;
+}
+
+.keterangan--part2 .animated{
+  opacity: 1;
+}
+
+.keterangan--part3{
+  opacity: 0;
+}
+
+.keterangan--part3 .animated{
+  opacity: 1;
+}
+
+.postingan--1{
+  opacity: 0;
+}
+
+.postingan--1. .animated{
+  opacity: 1;
+}
+
+.gambar--1{
+  opacity: 0;
+}
+
+.gambar--1 .animated{
+  opacity: 1;
+}
+
+.ket--berita1{
+  opacity: 0;
+}
+
+.ket--berita1 .animated{
+  opacity: 1;
+}
+
+.peta--1,
+.isi-peta1,
+.gambar-peta {
+  opacity: 0;
+}
+
+.peta--1 .animated
+.isi-peta1 .animated
+.gambar-peta .animated{
+  opacity: 1;
+}
+
+
